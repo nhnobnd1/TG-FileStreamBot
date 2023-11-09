@@ -1,4 +1,4 @@
-THRESHOLD=100000 # Đặt ngưỡng ổ cứng ở đây (tính theo MB)
+THRESHOLD=500000 # Đặt ngưỡng ổ cứng ở đây (tính theo MB)
 TARGET_DIRECTORY="/" # Thay thế bằng thư mục bạn muốn kiểm tra
 
  available_space=$(df -m $TARGET_DIRECTORY | awk 'NR==2{print $4}')
